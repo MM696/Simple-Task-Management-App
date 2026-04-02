@@ -4,13 +4,13 @@
 Lightweight full-stack task management application with secure JWT authentication and per-user task CRUD. Each task is owned by exactly one user, and the API enforces ownership at the database query level.
 
 ## Tech Stack
-- Backend: Node.js + Express (REST API), JWT (access tokens), bcrypt, Mongoose (MongoDB)
+- Backend: Node.js and Express (REST API), JWT (access tokens), bcrypt, Mongoose (MongoDB)
 - Frontend: React (Vite), Axios, React Router
 - Validation: Zod
-- Tests (bonus): Jest + Supertest + mongodb-memory-server
+- Tests (bonus): Jest and Supertest and mongodb-memory-server
 
 ## Requirements
-- Node.js 18+ (recommended: 20+)
+- Node.js 18 above (recommended: 20 above)
 - MongoDB running locally (or update `DATABASE_URL` to point to your Mongo instance)
 
 ## Project Structure
