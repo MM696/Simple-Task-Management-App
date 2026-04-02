@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const crypto = require("crypto");
 const config = require("../config/env");
 
-const TOKEN_TTL_SECONDS = 60 * 60; // 1 hour
+const TOKEN_TTL_SECONDS = 60 * 60; // 1 hour before it expires
 
 async function registerUser({ email, password, User }) {
   const existing = await User.findOne({ email });

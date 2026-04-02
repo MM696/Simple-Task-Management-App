@@ -1,7 +1,4 @@
-/**
- * Lightweight in-memory token blacklist.
- * This is sufficient for an assessment app; it will reset when the server restarts.
- */
+/* Blacklist the token so it can’t be used anymore. */
 class TokenBlacklist {
   constructor() {
     this.jtiToExpMs = new Map(); // jti -> expMs
