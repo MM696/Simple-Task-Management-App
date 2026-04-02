@@ -10,7 +10,7 @@ Lightweight full-stack task management application with secure JWT authenticatio
 - Tests (bonus): Jest and Supertest and mongodb-memory-server
 
 ## Requirements
-- Node.js 18+ (recommended: 20+)
+- Node.js 18 above (recommended: 20 above)
 - MongoDB running locally (or update `DATABASE_URL` to point to your Mongo instance)
 
 ## Project Structure
